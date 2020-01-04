@@ -1,0 +1,117 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    line-height:1.8em;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #666;
+    
+}
+
+.img1, .img2, .img3, .img4 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img1 {
+     background-image: url(images/photography-of-roadway-during-dusk-1034662.jpg);
+     min-height: 100%;
+} 
+
+
+.img2{
+    background-image: url(images/row-of-books-in-shelf-256541.jpg);
+    min-height: 400px;
+}
+
+
+.img3{
+    background-image: url(images/arif-riyanto-vJP-wZ6hGBg-unsplash.jpg);
+    min-height: 400px;
+}
+
+.img4{
+    background-image: url(images/photography-of-roadway-during-dusk-1034662.jpg);
+    min-height: 50%;
+}
+
+.sec1, .sec2, .sec3{
+    text-align: center;
+    padding: 50px 50px;
+    text-align: center;
+    background-color: #282e34;
+    text-align: center;
+    color: #ddd;
+    border-radius: 1px;
+    font-size: 20px;
+}
+
+.text1,  .text2, .text3, .text4{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    letter-spacing: 8px;
+    font-size: 23px;
+    font-weight: bolder;
+}
+
+.text1:hover{
+    color: chartreuse;
+}
+
+.text3:hover{
+    color: chartreuse;
+}
+
+.text2:hover{
+    color: chartreuse;
+}
+
+.text4:hover{
+    color: chartreuse;
+}
+
+.border{
+    background-color:#111;
+    padding: 10px 10px;
+    border-radius: 12.5px;
+
+}
+
+.header{
+    background-color: #282e34;
+    padding-top: 5px;
+    text-align: right;
+    width: 100%;
+    padding-bottom: 5px;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+     
+   
+}
+
+.link:hover{
+    color: chartreuse;
+}
+
+.link{
+    text-decoration: none;
+    color: whitesmoke;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-size: 17px;
+}
+
+.footer{
+    background-color: #282e34;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 17px;
+}
